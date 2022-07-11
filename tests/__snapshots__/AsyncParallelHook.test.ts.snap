@@ -1,0 +1,577 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AsyncParallelHook async empty 1`] = `
+Array [
+  Array [
+    1,
+  ],
+  Array [
+    2,
+  ],
+  Array [
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncParallelHook async empty 2`] = `
+Array [
+  Array [
+    1,
+  ],
+  Array [
+    2,
+  ],
+  Array [
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncParallelHook async multi 1`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncParallelHook async multi 2`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncParallelHook async multi return error 1`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  "end",
+  Array [
+    [Error: error-2],
+  ],
+]
+`;
+
+exports[`AsyncParallelHook async multi return error 2`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  "end",
+  Array [
+    [Error: error-2],
+  ],
+]
+`;
+
+exports[`AsyncParallelHook async multi return value 1`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncParallelHook async multi return value 2`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncParallelHook async single 1`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "hooks",
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncParallelHook async single 2`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "hooks",
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncParallelHook async single return error 1`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  "end",
+  Array [
+    [Error: error-2],
+  ],
+]
+`;
+
+exports[`AsyncParallelHook async single return error 2`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  "end",
+  Array [
+    [Error: error-2],
+  ],
+]
+`;
+
+exports[`AsyncParallelHook async single return value 1`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "hooks",
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncParallelHook async single return value 2`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "hooks",
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncParallelHook promise reject multi return value 1`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "error",
+  ],
+  Array [
+    4,
+  ],
+]
+`;
+
+exports[`AsyncParallelHook promise reject multi return value 2`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "error",
+  ],
+  Array [
+    4,
+  ],
+]
+`;
+
+exports[`AsyncParallelHook promise reject single return value 1`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "error",
+  ],
+  Array [
+    4,
+  ],
+]
+`;
+
+exports[`AsyncParallelHook promise reject single return value 2`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "error",
+  ],
+  Array [
+    4,
+  ],
+]
+`;
+
+exports[`AsyncParallelHook promise resolve multi 1`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+    3,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    Array [
+      undefined,
+      undefined,
+      undefined,
+    ],
+  ],
+]
+`;
+
+exports[`AsyncParallelHook promise resolve multi 2`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+    3,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    Array [
+      undefined,
+      undefined,
+      undefined,
+    ],
+  ],
+]
+`;
+
+exports[`AsyncParallelHook promise resolve multi return value 1`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+    3,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    Array [
+      undefined,
+      4,
+      undefined,
+    ],
+  ],
+]
+`;
+
+exports[`AsyncParallelHook promise resolve multi return value 2`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+    3,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    Array [
+      undefined,
+      4,
+      undefined,
+    ],
+  ],
+]
+`;
+
+exports[`AsyncParallelHook promise resolve single 1`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "hooks",
+    3,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    Array [
+      undefined,
+      undefined,
+      undefined,
+    ],
+  ],
+]
+`;
+
+exports[`AsyncParallelHook promise resolve single 2`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "hooks",
+    3,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    Array [
+      undefined,
+      undefined,
+      undefined,
+    ],
+  ],
+]
+`;
+
+exports[`AsyncParallelHook promise resolve single return value 1`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "hooks",
+    3,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    Array [
+      undefined,
+      4,
+      undefined,
+    ],
+  ],
+]
+`;
+
+exports[`AsyncParallelHook promise resolve single return value 2`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "hooks",
+    3,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    Array [
+      undefined,
+      4,
+      undefined,
+    ],
+  ],
+]
+`;
