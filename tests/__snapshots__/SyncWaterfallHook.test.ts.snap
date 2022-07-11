@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SyncWaterfallHook call multi empty 1`] = `
+Array [
+  "hook-3",
+  Array [
+    Array [
+      "hooks",
+    ],
+    Array [
+      "hook-1",
+    ],
+    Array [
+      null,
+    ],
+  ],
+]
+`;
+
+exports[`SyncWaterfallHook call multi empty 2`] = `
+Array [
+  "hook-3",
+  Array [
+    Array [
+      "hooks",
+    ],
+    Array [
+      "hook-1",
+    ],
+    Array [
+      null,
+    ],
+  ],
+]
+`;
+
+exports[`SyncWaterfallHook call multi empty 3`] = `"hook-3"`;
+
+exports[`SyncWaterfallHook call multi empty 4`] = `"hook-3"`;
+
+exports[`SyncWaterfallHook call multi empty 5`] = `
+Array [
+  Array [
+    "hooks",
+  ],
+  Array [
+    "hook-1",
+  ],
+  Array [
+    null,
+  ],
+]
+`;
+
+exports[`SyncWaterfallHook call multi empty 6`] = `
+Array [
+  Array [
+    "hooks",
+  ],
+  Array [
+    "hook-1",
+  ],
+  Array [
+    null,
+  ],
+]
+`;
+
+exports[`SyncWaterfallHook call multi one array params 1`] = `"hook-3"`;
+
+exports[`SyncWaterfallHook call multi one array params 2`] = `"hook-3"`;
+
+exports[`SyncWaterfallHook call multi one array params 3`] = `
+Array [
+  Array [
+    Array [
+      "hooks",
+    ],
+  ],
+  Array [
+    "hook-1",
+  ],
+  Array [
+    "hook-2",
+  ],
+]
+`;
+
+exports[`SyncWaterfallHook call multi one array params 4`] = `
+Array [
+  Array [
+    Array [
+      "hooks",
+    ],
+  ],
+  Array [
+    "hook-1",
+  ],
+  Array [
+    "hook-2",
+  ],
+]
+`;
+
+exports[`SyncWaterfallHook call multi one params 1`] = `"hook-3"`;
+
+exports[`SyncWaterfallHook call multi one params 2`] = `"hook-3"`;
+
+exports[`SyncWaterfallHook call multi one params 3`] = `
+Array [
+  Array [
+    "hooks",
+  ],
+  Array [
+    "hook-1",
+  ],
+  Array [
+    "hook-2",
+  ],
+]
+`;
+
+exports[`SyncWaterfallHook call multi one params 4`] = `
+Array [
+  Array [
+    "hooks",
+  ],
+  Array [
+    "hook-1",
+  ],
+  Array [
+    "hook-2",
+  ],
+]
+`;
+
+exports[`SyncWaterfallHook call multi two array params 1`] = `"hook-3"`;
+
+exports[`SyncWaterfallHook call multi two array params 2`] = `"hook-3"`;
+
+exports[`SyncWaterfallHook call multi two array params 3`] = `
+Array [
+  Array [
+    Array [
+      "hooks",
+    ],
+    Array [
+      0,
+    ],
+  ],
+  Array [
+    "hook-1",
+    Array [
+      0,
+    ],
+  ],
+  Array [
+    "hook-2",
+    Array [
+      0,
+    ],
+  ],
+]
+`;
+
+exports[`SyncWaterfallHook call multi two array params 4`] = `
+Array [
+  Array [
+    Array [
+      "hooks",
+    ],
+    Array [
+      0,
+    ],
+  ],
+  Array [
+    "hook-1",
+    Array [
+      0,
+    ],
+  ],
+  Array [
+    "hook-2",
+    Array [
+      0,
+    ],
+  ],
+]
+`;
+
+exports[`SyncWaterfallHook call multi two params 1`] = `"hook-3"`;
+
+exports[`SyncWaterfallHook call multi two params 2`] = `"hook-3"`;
+
+exports[`SyncWaterfallHook call multi two params 3`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+  ],
+  Array [
+    "hook-1",
+    0,
+  ],
+  Array [
+    "hook-2",
+    0,
+  ],
+]
+`;
+
+exports[`SyncWaterfallHook call multi two params 4`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+  ],
+  Array [
+    "hook-1",
+    0,
+  ],
+  Array [
+    "hook-2",
+    0,
+  ],
+]
+`;
