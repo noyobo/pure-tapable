@@ -1,0 +1,521 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AsyncSeriesBailHook callAsync empty 1`] = `
+Array [
+  Array [
+    1,
+  ],
+  Array [
+    2,
+  ],
+  Array [
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync empty 2`] = `
+Array [
+  Array [
+    1,
+  ],
+  Array [
+    2,
+  ],
+  Array [
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync multi 1`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync multi 2`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync multi return error 1`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  "end",
+  Array [
+    [Error: error-2],
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync multi return error 2`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  "end",
+  Array [
+    [Error: error-2],
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync multi return value 1`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  "end",
+  Array [
+    null,
+    4,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync multi return value 2`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  "end",
+  Array [
+    null,
+    4,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync single 1`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "hooks",
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync single 2`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "hooks",
+    3,
+  ],
+  "end",
+  Array [],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync single return error 1`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  "end",
+  Array [
+    [Error: error-2],
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync single return error 2`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  "end",
+  Array [
+    [Error: error-2],
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync single return value 1`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  "end",
+  Array [
+    null,
+    4,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook callAsync single return value 2`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  "end",
+  Array [
+    null,
+    4,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook promise reject multi return value 1`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "error",
+  ],
+  Array [
+    4,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook promise reject multi return value 2`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "error",
+  ],
+  Array [
+    4,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook promise reject single return value 1`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "error",
+  ],
+  Array [
+    4,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook promise reject single return value 2`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "error",
+  ],
+  Array [
+    4,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook promise resolve multi 1`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+    3,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    undefined,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook promise resolve multi 2`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+    3,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    undefined,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook promise resolve multi return value 1`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    4,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook promise resolve multi return value 2`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+    1,
+  ],
+  Array [
+    "hooks",
+    0,
+    2,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    4,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook promise resolve single 1`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "hooks",
+    3,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    undefined,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook promise resolve single 2`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "hooks",
+    3,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    undefined,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook promise resolve single return value 1`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    4,
+  ],
+]
+`;
+
+exports[`AsyncSeriesBailHook promise resolve single return value 2`] = `
+Array [
+  Array [
+    "hooks",
+    1,
+  ],
+  Array [
+    "hooks",
+    2,
+  ],
+  Array [
+    "end",
+  ],
+  Array [
+    4,
+  ],
+]
+`;

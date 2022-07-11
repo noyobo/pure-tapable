@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SyncLoopHook call empty 1`] = `undefined`;
+
+exports[`SyncLoopHook call empty 2`] = `undefined`;
+
+exports[`SyncLoopHook call empty 3`] = `
+Array [
+  Array [
+    "count: ",
+    3,
+  ],
+  Array [
+    "count: ",
+    2,
+  ],
+  Array [
+    "count: ",
+    1,
+  ],
+]
+`;
+
+exports[`SyncLoopHook call empty 4`] = `
+Array [
+  Array [
+    "count: ",
+    3,
+  ],
+  Array [
+    "count: ",
+    2,
+  ],
+  Array [
+    "count: ",
+    1,
+  ],
+]
+`;
+
+exports[`SyncLoopHook call multi 1`] = `undefined`;
+
+exports[`SyncLoopHook call multi 2`] = `undefined`;
+
+exports[`SyncLoopHook call multi 3`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+  ],
+  Array [
+    "count: ",
+    3,
+  ],
+  Array [
+    "hooks",
+    0,
+  ],
+  Array [
+    "count: ",
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+  ],
+  Array [
+    "count: ",
+    1,
+  ],
+]
+`;
+
+exports[`SyncLoopHook call multi 4`] = `
+Array [
+  Array [
+    "hooks",
+    0,
+  ],
+  Array [
+    "count: ",
+    3,
+  ],
+  Array [
+    "hooks",
+    0,
+  ],
+  Array [
+    "count: ",
+    2,
+  ],
+  Array [
+    "hooks",
+    0,
+  ],
+  Array [
+    "count: ",
+    1,
+  ],
+]
+`;
+
+exports[`SyncLoopHook call single 1`] = `undefined`;
+
+exports[`SyncLoopHook call single 2`] = `undefined`;
+
+exports[`SyncLoopHook call single 3`] = `
+Array [
+  Array [
+    "hooks",
+  ],
+  Array [
+    "count: ",
+    3,
+  ],
+  Array [
+    "hooks",
+  ],
+  Array [
+    "count: ",
+    2,
+  ],
+  Array [
+    "hooks",
+  ],
+  Array [
+    "count: ",
+    1,
+  ],
+]
+`;
+
+exports[`SyncLoopHook call single 4`] = `
+Array [
+  Array [
+    "hooks",
+  ],
+  Array [
+    "count: ",
+    3,
+  ],
+  Array [
+    "hooks",
+  ],
+  Array [
+    "count: ",
+    2,
+  ],
+  Array [
+    "hooks",
+  ],
+  Array [
+    "count: ",
+    1,
+  ],
+]
+`;
