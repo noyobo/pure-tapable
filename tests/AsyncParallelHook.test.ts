@@ -2,6 +2,8 @@ import { AsyncParallelHook as S } from 'tapable';
 
 import { AsyncParallelHook } from '../src';
 
+jest.setTimeout(10 * 1000)
+
 describe('AsyncParallelHook', function () {
   it('async parallel', async function () {
     const fn1 = jest.fn();

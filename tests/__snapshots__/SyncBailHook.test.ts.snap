@@ -5,22 +5,22 @@ exports[`SyncBailHook call empty 1`] = `true`;
 exports[`SyncBailHook call empty 2`] = `true`;
 
 exports[`SyncBailHook call empty 3`] = `
-Array [
-  Array [
+[
+  [
     1,
   ],
-  Array [
+  [
     2,
   ],
 ]
 `;
 
 exports[`SyncBailHook call empty 4`] = `
-Array [
-  Array [
+[
+  [
     1,
   ],
-  Array [
+  [
     2,
   ],
 ]
@@ -31,13 +31,13 @@ exports[`SyncBailHook call multi 1`] = `true`;
 exports[`SyncBailHook call multi 2`] = `true`;
 
 exports[`SyncBailHook call multi 3`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
@@ -46,13 +46,13 @@ Array [
 `;
 
 exports[`SyncBailHook call multi 4`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
@@ -65,12 +65,12 @@ exports[`SyncBailHook call single 1`] = `true`;
 exports[`SyncBailHook call single 2`] = `true`;
 
 exports[`SyncBailHook call single 3`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
@@ -78,12 +78,12 @@ Array [
 `;
 
 exports[`SyncBailHook call single 4`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],

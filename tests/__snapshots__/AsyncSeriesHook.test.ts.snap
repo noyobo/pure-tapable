@@ -1,510 +1,510 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`AsyncSeriesHook callAsync empty 1`] = `
-Array [
-  Array [
+[
+  [
     1,
   ],
-  Array [
+  [
     2,
   ],
-  Array [
+  [
     3,
   ],
   "end",
-  Array [],
+  [],
 ]
 `;
 
 exports[`AsyncSeriesHook callAsync empty 2`] = `
-Array [
-  Array [
+[
+  [
     1,
   ],
-  Array [
+  [
     2,
   ],
-  Array [
+  [
     3,
   ],
   "end",
-  Array [],
+  [],
 ]
 `;
 
 exports[`AsyncSeriesHook callAsync multi 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "hooks",
     0,
     3,
   ],
   "end",
-  Array [],
+  [],
 ]
 `;
 
 exports[`AsyncSeriesHook callAsync multi 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "hooks",
     0,
     3,
   ],
   "end",
-  Array [],
+  [],
 ]
 `;
 
 exports[`AsyncSeriesHook callAsync multi return error 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
   "end",
-  Array [
+  [
     [Error: error-2],
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook callAsync multi return error 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
   "end",
-  Array [
+  [
     [Error: error-2],
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook callAsync multi return value ignore 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "hooks",
     0,
     3,
   ],
   "end",
-  Array [],
+  [],
 ]
 `;
 
 exports[`AsyncSeriesHook callAsync multi return value ignore 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "hooks",
     0,
     3,
   ],
   "end",
-  Array [],
+  [],
 ]
 `;
 
 exports[`AsyncSeriesHook callAsync single 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "hooks",
     3,
   ],
   "end",
-  Array [],
+  [],
 ]
 `;
 
 exports[`AsyncSeriesHook callAsync single 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "hooks",
     3,
   ],
   "end",
-  Array [],
+  [],
 ]
 `;
 
 exports[`AsyncSeriesHook callAsync single return value ignore 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "hooks",
     3,
   ],
   "end",
-  Array [],
+  [],
 ]
 `;
 
 exports[`AsyncSeriesHook callAsync single return value ignore 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "hooks",
     3,
   ],
   "end",
-  Array [],
+  [],
 ]
 `;
 
 exports[`AsyncSeriesHook promise reject multi return value ignore 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "error",
   ],
-  Array [
+  [
     4,
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook promise reject multi return value ignore 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "error",
   ],
-  Array [
+  [
     4,
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook promise reject single return value ignore 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "error",
   ],
-  Array [
+  [
     4,
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook promise reject single return value ignore 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "error",
   ],
-  Array [
+  [
     4,
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook promise resolve multi 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "hooks",
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     undefined,
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook promise resolve multi 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "hooks",
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     undefined,
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook promise resolve multi return value ignore 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "hooks",
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     undefined,
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook promise resolve multi return value ignore 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "hooks",
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     undefined,
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook promise resolve single 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "hooks",
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     undefined,
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook promise resolve single 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "hooks",
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     undefined,
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook promise resolve single return value ignore 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "hooks",
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     undefined,
   ],
 ]
 `;
 
 exports[`AsyncSeriesHook promise resolve single return value ignore 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "hooks",
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     undefined,
   ],
 ]
