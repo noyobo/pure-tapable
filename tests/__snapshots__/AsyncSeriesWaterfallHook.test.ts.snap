@@ -1,26 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`AsyncSeriesWaterfallHook callAsync multi 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "after-1",
     0,
     2,
   ],
-  Array [
+  [
     null,
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     null,
     "after-3",
   ],
@@ -28,26 +28,26 @@ Array [
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync multi 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "after-1",
     0,
     2,
   ],
-  Array [
+  [
     null,
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     null,
     "after-3",
   ],
@@ -55,68 +55,68 @@ Array [
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync multi callback error 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "after-1",
     0,
     2,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     [Error: error-2],
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync multi callback error 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "after-1",
     0,
     2,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     [Error: error-2],
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync multi callback void 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "hooks",
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     null,
     "hooks",
   ],
@@ -124,26 +124,26 @@ Array [
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync multi callback void 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "hooks",
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     null,
     "hooks",
   ],
@@ -151,26 +151,26 @@ Array [
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync multi callback zero 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     0,
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     null,
     0,
   ],
@@ -178,26 +178,26 @@ Array [
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync multi callback zero 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     0,
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     null,
     0,
   ],
@@ -205,23 +205,23 @@ Array [
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync single 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "after-1",
     2,
   ],
-  Array [
+  [
     "after-2",
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     null,
     "after-3",
   ],
@@ -229,23 +229,23 @@ Array [
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync single 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "after-1",
     2,
   ],
-  Array [
+  [
     "after-2",
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     null,
     "after-3",
   ],
@@ -253,61 +253,61 @@ Array [
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync single callback error 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "after-1",
     2,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     [Error: error],
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync single callback error 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "after-1",
     2,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     [Error: error],
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync single callback false 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     false,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     null,
     false,
   ],
@@ -315,23 +315,23 @@ Array [
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync single callback false 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     false,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     null,
     false,
   ],
@@ -339,23 +339,23 @@ Array [
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync single callback void 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "hooks",
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     null,
     "hooks",
   ],
@@ -363,23 +363,23 @@ Array [
 `;
 
 exports[`AsyncSeriesWaterfallHook callAsync single callback void 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "hooks",
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     null,
     "hooks",
   ],
@@ -387,472 +387,472 @@ Array [
 `;
 
 exports[`AsyncSeriesWaterfallHook promise multi 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "after-1",
     0,
     2,
   ],
-  Array [
+  [
     null,
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     "after-3",
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise multi 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "after-1",
     0,
     2,
   ],
-  Array [
+  [
     null,
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     "after-3",
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise multi reject error 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     [Error: error],
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise multi reject error 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     [Error: error],
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise multi resolve error 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     [Error: error],
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     [Error: error],
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise multi resolve error 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     [Error: error],
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     [Error: error],
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise multi resolve void 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "hooks",
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     "hooks",
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise multi resolve void 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     "hooks",
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     "hooks",
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise multi resolve zero 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     0,
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     0,
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise multi resolve zero 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     0,
     1,
   ],
-  Array [
+  [
     "hooks",
     0,
     2,
   ],
-  Array [
+  [
     0,
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     0,
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise single 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "after-1",
     2,
   ],
-  Array [
+  [
     "after-2",
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     "after-3",
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise single 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "after-1",
     2,
   ],
-  Array [
+  [
     "after-2",
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     "after-3",
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise single reject error 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     [Error: error],
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise single reject error 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     [Error: error],
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise single resolve error 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     [Error: error],
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     [Error: error],
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise single resolve error 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     [Error: error],
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     [Error: error],
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise single resolve void 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "hooks",
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     "hooks",
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise single resolve void 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     "hooks",
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     "hooks",
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise single resolve zero 1`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     0,
   ],
 ]
 `;
 
 exports[`AsyncSeriesWaterfallHook promise single resolve zero 2`] = `
-Array [
-  Array [
+[
+  [
     "hooks",
     1,
   ],
-  Array [
+  [
     "hooks",
     2,
   ],
-  Array [
+  [
     0,
     3,
   ],
-  Array [
+  [
     "end",
   ],
-  Array [
+  [
     0,
   ],
 ]
