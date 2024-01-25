@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { AsyncSeriesBailHook as S } from 'tapable';
 
 import { AsyncSeriesBailHook } from '../src';

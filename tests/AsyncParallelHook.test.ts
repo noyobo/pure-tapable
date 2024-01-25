@@ -1,14 +1,15 @@
+import { describe, expect, it, vi } from 'vitest';
 import { AsyncParallelHook as S } from 'tapable';
 
 import { AsyncParallelHook } from '../src';
 
-jest.setTimeout(10 * 1000)
+vi.setConfig({ testTimeout: 10 * 1000});
 
 describe('AsyncParallelHook', function () {
   it('async parallel', async function () {
-    const fn1 = jest.fn();
-    const fn2 = jest.fn();
-    const fn3 = jest.fn();
+    const fn1 = vi.fn();
+    const fn2 = vi.fn();
+    const fn3 = vi.fn();
 
     function run(Hook: typeof AsyncParallelHook): Promise<any> {
       return new Promise((resolve: any) => {
@@ -45,9 +46,9 @@ describe('AsyncParallelHook', function () {
   });
 
   it('promise parallel', async function () {
-    const fn1 = jest.fn();
-    const fn2 = jest.fn();
-    const fn3 = jest.fn();
+    const fn1 = vi.fn();
+    const fn2 = vi.fn();
+    const fn3 = vi.fn();
     function run(Hook: typeof AsyncParallelHook): Promise<any> {
       return new Promise((resolve: any) => {
         const queue = new Hook<[]>();

@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { AsyncSeriesWaterfallHook as S } from 'tapable';
 
 import { AsyncSeriesWaterfallHook } from '../src';

@@ -2,7 +2,7 @@
  * 同步串行 hook
  * 当监听函数被触发的时，如返回 true 则会反复执行，如返回 void 则表示退出循环。
  */
-import { Sync } from './Hook';
+import { Sync } from './Hook.js';
 
 type TapFn<P extends unknown[]> = (...args: P) => void | true;
 

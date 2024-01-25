@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`SyncWaterfallHook call multi empty 1`] = `
+exports[`SyncWaterfallHook > call multi empty 1`] = `
 [
   "hook-3",
   [
@@ -17,7 +17,7 @@ exports[`SyncWaterfallHook call multi empty 1`] = `
 ]
 `;
 
-exports[`SyncWaterfallHook call multi empty 2`] = `
+exports[`SyncWaterfallHook > call multi empty 2`] = `
 [
   "hook-3",
   [
@@ -34,11 +34,11 @@ exports[`SyncWaterfallHook call multi empty 2`] = `
 ]
 `;
 
-exports[`SyncWaterfallHook call multi empty 3`] = `"hook-3"`;
+exports[`SyncWaterfallHook > call multi empty 3`] = `"hook-3"`;
 
-exports[`SyncWaterfallHook call multi empty 4`] = `"hook-3"`;
+exports[`SyncWaterfallHook > call multi empty 4`] = `"hook-3"`;
 
-exports[`SyncWaterfallHook call multi empty 5`] = `
+exports[`SyncWaterfallHook > call multi empty 5`] = `
 [
   [
     "hooks",
@@ -52,7 +52,7 @@ exports[`SyncWaterfallHook call multi empty 5`] = `
 ]
 `;
 
-exports[`SyncWaterfallHook call multi empty 6`] = `
+exports[`SyncWaterfallHook > call multi empty 6`] = `
 [
   [
     "hooks",
@@ -66,11 +66,11 @@ exports[`SyncWaterfallHook call multi empty 6`] = `
 ]
 `;
 
-exports[`SyncWaterfallHook call multi one array params 1`] = `"hook-3"`;
+exports[`SyncWaterfallHook > call multi one array params 1`] = `"hook-3"`;
 
-exports[`SyncWaterfallHook call multi one array params 2`] = `"hook-3"`;
+exports[`SyncWaterfallHook > call multi one array params 2`] = `"hook-3"`;
 
-exports[`SyncWaterfallHook call multi one array params 3`] = `
+exports[`SyncWaterfallHook > call multi one array params 3`] = `
 [
   [
     [
@@ -86,7 +86,7 @@ exports[`SyncWaterfallHook call multi one array params 3`] = `
 ]
 `;
 
-exports[`SyncWaterfallHook call multi one array params 4`] = `
+exports[`SyncWaterfallHook > call multi one array params 4`] = `
 [
   [
     [
@@ -102,11 +102,11 @@ exports[`SyncWaterfallHook call multi one array params 4`] = `
 ]
 `;
 
-exports[`SyncWaterfallHook call multi one params 1`] = `"hook-3"`;
+exports[`SyncWaterfallHook > call multi one params 1`] = `"hook-3"`;
 
-exports[`SyncWaterfallHook call multi one params 2`] = `"hook-3"`;
+exports[`SyncWaterfallHook > call multi one params 2`] = `"hook-3"`;
 
-exports[`SyncWaterfallHook call multi one params 3`] = `
+exports[`SyncWaterfallHook > call multi one params 3`] = `
 [
   [
     "hooks",
@@ -120,7 +120,7 @@ exports[`SyncWaterfallHook call multi one params 3`] = `
 ]
 `;
 
-exports[`SyncWaterfallHook call multi one params 4`] = `
+exports[`SyncWaterfallHook > call multi one params 4`] = `
 [
   [
     "hooks",
@@ -134,11 +134,11 @@ exports[`SyncWaterfallHook call multi one params 4`] = `
 ]
 `;
 
-exports[`SyncWaterfallHook call multi two array params 1`] = `"hook-3"`;
+exports[`SyncWaterfallHook > call multi two array params 1`] = `"hook-3"`;
 
-exports[`SyncWaterfallHook call multi two array params 2`] = `"hook-3"`;
+exports[`SyncWaterfallHook > call multi two array params 2`] = `"hook-3"`;
 
-exports[`SyncWaterfallHook call multi two array params 3`] = `
+exports[`SyncWaterfallHook > call multi two array params 3`] = `
 [
   [
     [
@@ -163,7 +163,7 @@ exports[`SyncWaterfallHook call multi two array params 3`] = `
 ]
 `;
 
-exports[`SyncWaterfallHook call multi two array params 4`] = `
+exports[`SyncWaterfallHook > call multi two array params 4`] = `
 [
   [
     [
@@ -188,11 +188,11 @@ exports[`SyncWaterfallHook call multi two array params 4`] = `
 ]
 `;
 
-exports[`SyncWaterfallHook call multi two params 1`] = `"hook-3"`;
+exports[`SyncWaterfallHook > call multi two params 1`] = `"hook-3"`;
 
-exports[`SyncWaterfallHook call multi two params 2`] = `"hook-3"`;
+exports[`SyncWaterfallHook > call multi two params 2`] = `"hook-3"`;
 
-exports[`SyncWaterfallHook call multi two params 3`] = `
+exports[`SyncWaterfallHook > call multi two params 3`] = `
 [
   [
     "hooks",
@@ -209,7 +209,7 @@ exports[`SyncWaterfallHook call multi two params 3`] = `
 ]
 `;
 
-exports[`SyncWaterfallHook call multi two params 4`] = `
+exports[`SyncWaterfallHook > call multi two params 4`] = `
 [
   [
     "hooks",

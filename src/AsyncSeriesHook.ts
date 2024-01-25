@@ -1,4 +1,4 @@
-import { Async } from './Hook';
+import { Async } from './Hook.js';
 import { DoneCallback, TapAsyncFn, TapPromiseFn } from './types';
 
 /**

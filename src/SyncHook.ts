@@ -1,4 +1,4 @@
-import { Sync } from './Hook';
+import { Sync } from './Hook.js';
 
 type TapFn<P extends unknown[]> = (...args: P) => void;
 

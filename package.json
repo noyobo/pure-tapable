@@ -2,36 +2,84 @@
   "name": "pure-tapable",
   "version": "1.1.0",
   "description": "tapable 管道流",
+  "module": "esm/index.js",
   "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
+  "types": "types/index.d.ts",
   "files": [
-    "lib"
+    "lib",
+    "esm",
+    "types"
   ],
+  "sideEffects": false,
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/noyobo/pure-tapable.git"
   },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./esm/index.js",
+      "require": "./lib/index.js"
+    },
+    "./lib": "./lib/index.js",
+    "./esm": "./esm/index.js",
+    "./AsyncParallelHook": {
+      "import": "./esm/AsyncParallelHook.js",
+      "require": "./lib/AsyncParallelHook.js"
+    },
+    "./AsyncParallelBailHook": {
+      "import": "./esm/AsyncParallelBailHook.js",
+      "require": "./lib/AsyncParallelBailHook.js"
+    },
+    "./AsyncSeriesHook": {
+      "import": "./esm/AsyncSeriesHook.js",
+      "require": "./lib/AsyncSeriesHook.js"
+    },
+    "./AsyncSeriesBailHook": {
+      "import": "./esm/AsyncSeriesBailHook.js",
+      "require": "./lib/AsyncSeriesBailHook.js"
+    },
+    "./AsyncSeriesWaterfallHook": {
+      "import": "./esm/AsyncSeriesWaterfallHook.js",
+      "require": "./lib/AsyncSeriesWaterfallHook.js"
+    },
+    "./SyncBailHook": {
+      "import": "./esm/SyncBailHook.js",
+      "require": "./lib/SyncBailHook.js"
+    },
+    "./SyncHook": {
+      "import": "./esm/SyncHook.js",
+      "require": "./lib/SyncHook.js"
+    },
+    "./SyncLoopHook": {
+      "import": "./esm/SyncLoopHook.js",
+      "require": "./lib/SyncLoopHook.js"
+    },
+    "./SyncWaterfallHook": {
+      "import": "./esm/SyncWaterfallHook.js",
+      "require": "./lib/SyncWaterfallHook.js"
+    }
+  },
   "scripts": {
-    "test": "jest",
-    "test:cov": "jest --coverage",
+    "test": "vitest",
+    "test:cov": "vitest --coverage",
     "tds": "tsc --declaration --emitDeclarationOnly",
-    "clear": "rm -rf ./lib",
+    "clear": "rm -rf ./lib ./esm ./types",
     "swc:lib": "swc src -d lib  -C module.type=commonjs -C jsc.target=es2015 -C jsc.externalHelpers=true",
-    "build": "npm run clear && npm run tds && npm run swc:lib",
+    "swc:esm": "swc src -d esm  -C module.type=es6 -C jsc.target=es2015 -C jsc.externalHelpers=true",
+    "build": "npm run clear && npm run tds && npm run swc:lib && npm run swc:esm",
     "watch": "npm run swc:lib -- --watch"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.63",
     "@swc/core": "^1.3.101",
-    "@types/jest": "^29.5.11",
     "chokidar": "^3.5.3",
-    "esbuild": "^0.19.10",
-    "esbuild-jest": "^0.5.0",
-    "jest": "^29.7.0",
     "merge": "^2.1.0",
     "standard-version": "^9.5.0",
     "tapable": "^2.0.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
   },
   "dependencies": {
     "@swc/helpers": "^0.5.3"

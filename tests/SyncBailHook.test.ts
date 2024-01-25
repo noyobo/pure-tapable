@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { SyncBailHook as S } from 'tapable';
 
 import { SyncBailHook } from '../src';

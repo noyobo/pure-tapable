@@ -1,10 +1,10 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`SyncLoopHook call empty 1`] = `undefined`;
+exports[`SyncLoopHook > call empty 1`] = `undefined`;
 
-exports[`SyncLoopHook call empty 2`] = `undefined`;
+exports[`SyncLoopHook > call empty 2`] = `undefined`;
 
-exports[`SyncLoopHook call empty 3`] = `
+exports[`SyncLoopHook > call empty 3`] = `
 [
   [
     "count: ",
@@ -21,7 +21,7 @@ exports[`SyncLoopHook call empty 3`] = `
 ]
 `;
 
-exports[`SyncLoopHook call empty 4`] = `
+exports[`SyncLoopHook > call empty 4`] = `
 [
   [
     "count: ",
@@ -38,40 +38,11 @@ exports[`SyncLoopHook call empty 4`] = `
 ]
 `;
 
-exports[`SyncLoopHook call multi 1`] = `undefined`;
+exports[`SyncLoopHook > call multi 1`] = `undefined`;
 
-exports[`SyncLoopHook call multi 2`] = `undefined`;
+exports[`SyncLoopHook > call multi 2`] = `undefined`;
 
-exports[`SyncLoopHook call multi 3`] = `
-[
-  [
-    "hooks",
-    0,
-  ],
-  [
-    "count: ",
-    3,
-  ],
-  [
-    "hooks",
-    0,
-  ],
-  [
-    "count: ",
-    2,
-  ],
-  [
-    "hooks",
-    0,
-  ],
-  [
-    "count: ",
-    1,
-  ],
-]
-`;
-
-exports[`SyncLoopHook call multi 4`] = `
+exports[`SyncLoopHook > call multi 3`] = `
 [
   [
     "hooks",
@@ -100,11 +71,40 @@ exports[`SyncLoopHook call multi 4`] = `
 ]
 `;
 
-exports[`SyncLoopHook call single 1`] = `undefined`;
+exports[`SyncLoopHook > call multi 4`] = `
+[
+  [
+    "hooks",
+    0,
+  ],
+  [
+    "count: ",
+    3,
+  ],
+  [
+    "hooks",
+    0,
+  ],
+  [
+    "count: ",
+    2,
+  ],
+  [
+    "hooks",
+    0,
+  ],
+  [
+    "count: ",
+    1,
+  ],
+]
+`;
 
-exports[`SyncLoopHook call single 2`] = `undefined`;
+exports[`SyncLoopHook > call single 1`] = `undefined`;
 
-exports[`SyncLoopHook call single 3`] = `
+exports[`SyncLoopHook > call single 2`] = `undefined`;
+
+exports[`SyncLoopHook > call single 3`] = `
 [
   [
     "hooks",
@@ -130,7 +130,7 @@ exports[`SyncLoopHook call single 3`] = `
 ]
 `;
 
-exports[`SyncLoopHook call single 4`] = `
+exports[`SyncLoopHook > call single 4`] = `
 [
   [
     "hooks",
