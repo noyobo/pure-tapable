@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { SyncWaterfallHook as S } from 'tapable';
 
 import { SyncWaterfallHook } from '../src';

@@ -1,5 +1,5 @@
-import { Async } from './Hook';
-import { DoneCallback, TapAsyncFn, TapPromiseFn } from './types';
+import { Async } from './Hook.js';
+import type { DoneCallback, TapAsyncFn, TapPromiseFn } from './types';
 
 /**
  * 异步并行 hook
@@ -42,7 +42,7 @@ export default class AsyncParallelHook<A extends unknown[]> extends Async<A, Tap
     return Promise.all(
       this.promiseTaps.map(({ fn }) => {
         return fn.apply(this, args);
-      })
+      }),
     );
   };
 }

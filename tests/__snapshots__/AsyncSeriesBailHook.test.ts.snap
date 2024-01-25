@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`AsyncSeriesBailHook callAsync empty 1`] = `
+exports[`AsyncSeriesBailHook > callAsync empty 1`] = `
 [
   [
     1,
@@ -16,7 +16,7 @@ exports[`AsyncSeriesBailHook callAsync empty 1`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook callAsync empty 2`] = `
+exports[`AsyncSeriesBailHook > callAsync empty 2`] = `
 [
   [
     1,
@@ -32,29 +32,7 @@ exports[`AsyncSeriesBailHook callAsync empty 2`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook callAsync multi 1`] = `
-[
-  [
-    "hooks",
-    0,
-    1,
-  ],
-  [
-    "hooks",
-    0,
-    2,
-  ],
-  [
-    "hooks",
-    0,
-    3,
-  ],
-  "end",
-  [],
-]
-`;
-
-exports[`AsyncSeriesBailHook callAsync multi 2`] = `
+exports[`AsyncSeriesBailHook > callAsync multi 1`] = `
 [
   [
     "hooks",
@@ -76,7 +54,29 @@ exports[`AsyncSeriesBailHook callAsync multi 2`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook callAsync multi return error 1`] = `
+exports[`AsyncSeriesBailHook > callAsync multi 2`] = `
+[
+  [
+    "hooks",
+    0,
+    1,
+  ],
+  [
+    "hooks",
+    0,
+    2,
+  ],
+  [
+    "hooks",
+    0,
+    3,
+  ],
+  "end",
+  [],
+]
+`;
+
+exports[`AsyncSeriesBailHook > callAsync multi return error 1`] = `
 [
   [
     "hooks",
@@ -95,7 +95,7 @@ exports[`AsyncSeriesBailHook callAsync multi return error 1`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook callAsync multi return error 2`] = `
+exports[`AsyncSeriesBailHook > callAsync multi return error 2`] = `
 [
   [
     "hooks",
@@ -114,7 +114,7 @@ exports[`AsyncSeriesBailHook callAsync multi return error 2`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook callAsync multi return value 1`] = `
+exports[`AsyncSeriesBailHook > callAsync multi return value 1`] = `
 [
   [
     "hooks",
@@ -134,7 +134,7 @@ exports[`AsyncSeriesBailHook callAsync multi return value 1`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook callAsync multi return value 2`] = `
+exports[`AsyncSeriesBailHook > callAsync multi return value 2`] = `
 [
   [
     "hooks",
@@ -154,7 +154,7 @@ exports[`AsyncSeriesBailHook callAsync multi return value 2`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook callAsync single 1`] = `
+exports[`AsyncSeriesBailHook > callAsync single 1`] = `
 [
   [
     "hooks",
@@ -173,7 +173,7 @@ exports[`AsyncSeriesBailHook callAsync single 1`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook callAsync single 2`] = `
+exports[`AsyncSeriesBailHook > callAsync single 2`] = `
 [
   [
     "hooks",
@@ -192,7 +192,7 @@ exports[`AsyncSeriesBailHook callAsync single 2`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook callAsync single return error 1`] = `
+exports[`AsyncSeriesBailHook > callAsync single return error 1`] = `
 [
   [
     "hooks",
@@ -209,7 +209,7 @@ exports[`AsyncSeriesBailHook callAsync single return error 1`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook callAsync single return error 2`] = `
+exports[`AsyncSeriesBailHook > callAsync single return error 2`] = `
 [
   [
     "hooks",
@@ -226,7 +226,7 @@ exports[`AsyncSeriesBailHook callAsync single return error 2`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook callAsync single return value 1`] = `
+exports[`AsyncSeriesBailHook > callAsync single return value 1`] = `
 [
   [
     "hooks",
@@ -244,7 +244,7 @@ exports[`AsyncSeriesBailHook callAsync single return value 1`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook callAsync single return value 2`] = `
+exports[`AsyncSeriesBailHook > callAsync single return value 2`] = `
 [
   [
     "hooks",
@@ -262,7 +262,7 @@ exports[`AsyncSeriesBailHook callAsync single return value 2`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook promise reject multi return value 1`] = `
+exports[`AsyncSeriesBailHook > promise reject multi return value 1`] = `
 [
   [
     "hooks",
@@ -283,7 +283,7 @@ exports[`AsyncSeriesBailHook promise reject multi return value 1`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook promise reject multi return value 2`] = `
+exports[`AsyncSeriesBailHook > promise reject multi return value 2`] = `
 [
   [
     "hooks",
@@ -304,7 +304,7 @@ exports[`AsyncSeriesBailHook promise reject multi return value 2`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook promise reject single return value 1`] = `
+exports[`AsyncSeriesBailHook > promise reject single return value 1`] = `
 [
   [
     "hooks",
@@ -323,7 +323,7 @@ exports[`AsyncSeriesBailHook promise reject single return value 1`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook promise reject single return value 2`] = `
+exports[`AsyncSeriesBailHook > promise reject single return value 2`] = `
 [
   [
     "hooks",
@@ -342,7 +342,7 @@ exports[`AsyncSeriesBailHook promise reject single return value 2`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook promise resolve multi 1`] = `
+exports[`AsyncSeriesBailHook > promise resolve multi 1`] = `
 [
   [
     "hooks",
@@ -368,7 +368,7 @@ exports[`AsyncSeriesBailHook promise resolve multi 1`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook promise resolve multi 2`] = `
+exports[`AsyncSeriesBailHook > promise resolve multi 2`] = `
 [
   [
     "hooks",
@@ -394,7 +394,7 @@ exports[`AsyncSeriesBailHook promise resolve multi 2`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook promise resolve multi return value 1`] = `
+exports[`AsyncSeriesBailHook > promise resolve multi return value 1`] = `
 [
   [
     "hooks",
@@ -415,7 +415,7 @@ exports[`AsyncSeriesBailHook promise resolve multi return value 1`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook promise resolve multi return value 2`] = `
+exports[`AsyncSeriesBailHook > promise resolve multi return value 2`] = `
 [
   [
     "hooks",
@@ -436,7 +436,7 @@ exports[`AsyncSeriesBailHook promise resolve multi return value 2`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook promise resolve single 1`] = `
+exports[`AsyncSeriesBailHook > promise resolve single 1`] = `
 [
   [
     "hooks",
@@ -459,7 +459,7 @@ exports[`AsyncSeriesBailHook promise resolve single 1`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook promise resolve single 2`] = `
+exports[`AsyncSeriesBailHook > promise resolve single 2`] = `
 [
   [
     "hooks",
@@ -482,7 +482,7 @@ exports[`AsyncSeriesBailHook promise resolve single 2`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook promise resolve single return value 1`] = `
+exports[`AsyncSeriesBailHook > promise resolve single return value 1`] = `
 [
   [
     "hooks",
@@ -501,7 +501,7 @@ exports[`AsyncSeriesBailHook promise resolve single return value 1`] = `
 ]
 `;
 
-exports[`AsyncSeriesBailHook promise resolve single return value 2`] = `
+exports[`AsyncSeriesBailHook > promise resolve single return value 2`] = `
 [
   [
     "hooks",

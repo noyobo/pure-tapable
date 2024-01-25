@@ -1,5 +1,5 @@
-import { Async } from './Hook';
-import { DoneCallback, TapAsyncFn, TapPromiseFn } from './types';
+import { Async } from './Hook.js';
+import type { DoneCallback, TapAsyncFn, TapPromiseFn } from './types';
 
 /**
  * 异步串行 hook

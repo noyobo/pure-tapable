@@ -1,7 +1,7 @@
 type Result = void | unknown;
 type TapFn<P extends unknown[]> = (...args: P) => Result;
 
-import { Sync } from './Hook';
+import { Sync } from './Hook.js';
 
 /**
  * 同步串行 hook

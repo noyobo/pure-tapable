@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { AsyncSeriesHook as S } from 'tapable';
 
 import { AsyncSeriesHook } from '../src';

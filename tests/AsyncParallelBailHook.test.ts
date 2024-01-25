@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { AsyncParallelBailHook as S } from 'tapable';
 
 import { AsyncParallelBailHook } from '../src';

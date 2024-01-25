@@ -1,4 +1,4 @@
-import { Sync } from './Hook';
+import { Sync } from './Hook.js';
 
 type ArrayElement<ArrayType extends unknown[]> = ArrayType[0] | any;
 
