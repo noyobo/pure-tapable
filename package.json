@@ -1,6 +1,6 @@
 {
   "name": "pure-tapable",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "tapable 管道流",
   "module": "esm/index.js",
   "main": "lib/index.js",
