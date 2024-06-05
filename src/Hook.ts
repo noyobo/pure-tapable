@@ -1,4 +1,4 @@
-import { DoneCallback } from './types';
+import { DoneCallback } from './types.js';
 
 abstract class Hook<A extends unknown[]> {
   protected readonly args: string[];
