@@ -19,45 +19,55 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "import": "./esm/index.js",
+      "types": "./types/index.d.ts",
+      "default": "./esm/index.js",
       "require": "./lib/index.js"
     },
-    "./lib": "./lib/index.js",
-    "./esm": "./esm/index.js",
+    "./lib/*": "./lib/*",
+    "./esm/*": "./esm/*",
     "./AsyncParallelHook": {
-      "import": "./esm/AsyncParallelHook.js",
+      "types": "./types/AsyncParallelHook.d.ts",
+      "default": "./esm/AsyncParallelHook.js",
       "require": "./lib/AsyncParallelHook.js"
     },
-    "./AsyncParallelBailHook": {
-      "import": "./esm/AsyncParallelBailHook.js",
+    "./AsyncParallelBailHook.js": {
+      "types": "./types/AsyncParallelBailHook.d.ts",
+      "default": "./esm/AsyncParallelBailHook.js",
       "require": "./lib/AsyncParallelBailHook.js"
     },
     "./AsyncSeriesHook": {
-      "import": "./esm/AsyncSeriesHook.js",
+      "types": "./types/AsyncSeriesHook.d.ts",
+      "default": "./esm/AsyncSeriesHook.js",
       "require": "./lib/AsyncSeriesHook.js"
     },
     "./AsyncSeriesBailHook": {
-      "import": "./esm/AsyncSeriesBailHook.js",
+      "types": "./types/AsyncSeriesBailHook.d.ts",
+      "default": "./esm/AsyncSeriesBailHook.js",
       "require": "./lib/AsyncSeriesBailHook.js"
     },
     "./AsyncSeriesWaterfallHook": {
-      "import": "./esm/AsyncSeriesWaterfallHook.js",
+      "types": "./types/AsyncSeriesWaterfallHook.d.ts",
+      "default": "./esm/AsyncSeriesWaterfallHook.js",
       "require": "./lib/AsyncSeriesWaterfallHook.js"
     },
     "./SyncBailHook": {
-      "import": "./esm/SyncBailHook.js",
+      "types": "./types/SyncBailHook.d.ts",
+      "default": "./esm/SyncBailHook.js",
       "require": "./lib/SyncBailHook.js"
     },
     "./SyncHook": {
-      "import": "./esm/SyncHook.js",
+      "types": "./types/SyncHook.d.ts",
+      "default": "./esm/SyncHook.js",
       "require": "./lib/SyncHook.js"
     },
     "./SyncLoopHook": {
-      "import": "./esm/SyncLoopHook.js",
+      "types": "./types/SyncLoopHook.d.ts",
+      "default": "./esm/SyncLoopHook.js",
       "require": "./lib/SyncLoopHook.js"
     },
     "./SyncWaterfallHook": {
-      "import": "./esm/SyncWaterfallHook.js",
+      "types": "./types/SyncWaterfallHook.d.ts",
+      "default": "./esm/SyncWaterfallHook.js",
       "require": "./lib/SyncWaterfallHook.js"
     }
   },
